@@ -1,6 +1,6 @@
-#pip install pyPDF2
+#pip install PyPDF2
 
-from pyPDF2 import PdfReader
+from PyPDF2 import PdfReader
 
 def extract_text_with_pyPDF(PDF_File):
     
