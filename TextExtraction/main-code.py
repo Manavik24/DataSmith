@@ -14,5 +14,6 @@ def extract_text_with_pyPDF(PDF_File):
 
     return raw_text
     
-text_with_pyPDF = extract_text_with_pyPDF("ManaviKhopade_Resume (1).pdf")
+text_with_pyPDF = extract_text_with_pyPDF("SoftSkills.pdf")
 print(text_with_pyPDF)
+
