@@ -17,3 +17,5 @@ file = st.file_uploader("Upload a PDF file", type="pdf")
 if file:
     text_with_pyPDF = extract_text_with_pyPDF(file)
     st.text(text_with_pyPDF)
+
+
